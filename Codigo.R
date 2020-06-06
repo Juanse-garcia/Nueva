@@ -4,3 +4,4 @@ regresion <- read_excel("regresion.xlsx",
                           "numeric", "numeric", "numeric", 
                           "numeric", "numeric", "text"))
 hist(regresion$pm2_5)
+hist(regresion$ws)
